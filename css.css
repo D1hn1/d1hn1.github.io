@@ -31,6 +31,7 @@ body{
     display: flex;
     top:50%;
     left:50%;
+    transition:all 3s;
     transform: translate(-50%, -50%);
     z-index: 1;
 }
@@ -40,6 +41,7 @@ body{
     width: 15px;
     height: 15px;
     background-color: white;
+    transition:all 3s;
     border-radius: 100px;
     right:0%;
 }
@@ -56,11 +58,20 @@ body{
 .contacts a{
     position: relative;
     text-decoration: none;
+    transition:all 3s;
     color:white;
 }
 
-.contacts a:hover{
-    top:10%;
+.title-center h1:hover {
+    color:black;
+}
+
+.title-center h1:hover ~ .dot {
+    background-color: black;
+}
+
+.title-center:hover ~ .contacts a{
+    color:black;
 }
 
 .courtain {
