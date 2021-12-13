@@ -59,24 +59,6 @@ body{
     color:white;
 }
 
-.sub-line-title {
-    position: absolute;
-    width: 300px;
-    height: 10px;
-    background-color: white;
-    border-radius: 50px;
-    transition: left 1s;
-    display: flex;
-    top:55%;
-    left:-1000px;
-    transform: translate(-50%, -50%);
-    z-index: 1;
-}
-
-.title-center:hover ~ .sub-line-title {
-    left: 50%;
-}
-
 .contacts a:hover{
     top:10%;
 }
