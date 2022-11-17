@@ -1,153 +1,92 @@
-*{
-	margin: 0px;
-	padding: 0px;
-	font-family: Arial;
-	font-weight: 500;
+* {
+    border: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    user-select: none;
 }
 
-html{
-	scroll-behavior: smooth;
+
+.container {
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    transition:all 0.3s;
 }
 
-body{
-    background-color: #191919;
-}
-
-#contenedor_carga{
-	background-color: #191919;
-	height: 100%;
-	width: 100%;
-	position: fixed;
-	-webkit-transtion: all 1s ease;
-	-o-transition: all 1s ease;
-	transition: all 1s ease;
-	z-index: 10000;
-}
-
-#carga{
-	border: 15px solid #ccc;
-	border-top-color: #191919;
-	height: 100px;
-	width: 100px;
-	border-radius: 100%;
-	position: absolute;
-	top: 0;
-	left: 0;
-	bottom: 0;
-	right: 0;
-	margin: auto;
-	-webkit-animation: girar 1.5s linear infinite;
-	-o-animation: girar 1.5s linear infinite;
-	animation: girar 1.5s linear infinite;
-}
-
-@keyframes girar {
-	from { transform: rotate(0deg)}
-	to { transform: rotate(360deg);}
-}
-
-.title-center{
-    width: 226px;
-    height: 120px;
+.container .main {
     position: absolute;
-    display: flex;
-    font-family: monospace;
-    top:50%;
-    left:50%;
+    font-size: 70px;
+    color: rgba(0,0,0,0.4);
+    max-width: 550px;
+    top: 50%;
+    left: 50%;
     transform: translate(-50%, -50%);
-    z-index: 1;
+    transition: all 1s;
+    cursor: pointer;
+    border-right: .15em solid orange;
+    animation: typing 3.5s steps(30, end),blink-caret .5s step-end infinite;
+    overflow: hidden;
+    white-space: nowrap;
 }
 
-.title-center h1{
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+@keyframes blink-caret {
+   from, to { border-color: transparent }
+   50% { border-color: orange }
+}
+
+.container .second {
     position: absolute;
-    color: white;
-    font-size: 100px;
-    display: flex;
-    top:50%;
-    left:50%;
-    transition:all 3s;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: rgba(0,0,0,0.0);
+    top: 70%;
+    left: 50%;
     transform: translate(-50%, -50%);
-    z-index: 1;
+    transition: all 1s;
+}
+    
+.container .main:hover {
+    color: rgba(0,0,0,1);
 }
 
-.title-center .dot {
+.container .main:hover ~ .second {
+    color: rgba(0,0,0,0.5);
+}
+
+/*input*/
+
+.inputfor {
+    display:none;
+}
+
+.labelfor::before {
     position: absolute;
-    width: 15px;
-    height: 15px;
-    background-color: white;
-    transition:all 3s;
-    border-radius: 100px;
-    right:0%;
+    content: "☀";
+    color:rgba(0,0,0,0.3);
+    font-size: 50px;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+    z-index: 2;
 }
 
-.contacts{
-    position: absolute;
-    width: 200px;
-    height: 20px;
-    top:5%;
-    left:3%;
-    z-index: 1;
+.labelfor:hover {
+    color:rgba(0,0,0,0.5);
 }
 
-.contacts a{
-    position: relative;
-    text-decoration: none;
-    transition:all 3s;
-    color:white;
+.inputfor:checked ~ .labelfor::before {
+    color:rgba(0,0,0,0.5);
+    content: "☾";
 }
 
-.contacts a:hover {
-    bottom:10%;
+.inputfor:checked ~ .container {
+    background-color: #292929;
 }
-
-.title-center h1:hover {
-    color:black;
-}
-
-.title-center h1:hover ~ .dot {
-    background-color: black;
-}
-
-.title-center:hover ~ .contacts a{
-    color:black;
-}
-
-.courtain {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background-color: #dd6b4d;
-    transition: left 1s;
-    left: -10000px;
-}
-
-.courtain-2 {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background-color: #007065;
-    transition: left 1.4s;
-    left: -10000px;
-}
-
-.courtain-3 {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background-color: #F3AC3C;
-    transition: left 1.8s;
-    left: -10000px;
-}
-
-.title-center:hover ~ .courtain {
-    left: 0px;
-}
-
-.title-center:hover ~ .courtain-2 {
-    left:0px;
-}
-
-.title-center:hover ~ .courtain-3 {
-    left:0px;
-}
-
