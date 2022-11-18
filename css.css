@@ -68,9 +68,9 @@
 
 .labelfor::before {
     position: absolute;
-    content: "☀";
+    content: "· LIGHT ·";
     color:rgba(0,0,0,0.3);
-    font-size: 50px;
+    font-size: 30px;
     top: 10%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -84,7 +84,7 @@
 
 .inputfor:checked ~ .labelfor::before {
     color:rgba(0,0,0,0.5);
-    content: "☾";
+    content: "x DARK x";
 }
 
 .inputfor:checked ~ .container {
