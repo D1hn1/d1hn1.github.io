@@ -1,0 +1,71 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    scroll-behavior: smooth;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* FIRST CONTAINER */
+
+.container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    transition: all 0.3s;
+    z-index: 0;
+}
+
+.arrow {
+    position: absolute;
+    width: 116px;
+    height: 118px;
+    bottom: 0px;
+}
+
+.title {
+    position: absolute;
+    color: rgba(255,255,255,0.5);
+    font-size: 200px;
+    font-weight: 900;
+    text-decoration: none;
+    z-index: 1;
+}
+
+.title:hover ~ .circle {
+    width: 420px;
+    height: 420px;
+}
+
+@media screen and (max-width: 700px) {
+    .circle {
+        width: 200px;
+        height: 200px;
+    }
+    .title {
+        font-size: 100px;
+    }
+    .title:hover ~ .circle {
+        width: 220px;
+        height: 220px;
+    }
+}
+
+.second {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 100%;
+    background-image: url("images/background2.jpg");
+
+}
