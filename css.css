@@ -2,7 +2,7 @@
     padding: 0px;
     margin: 0px;
     scroll-behavior: smooth;
-    font-family:monospace;
+    font-family:Arial, Helvetica, sans-serif;
 }
 
 /* FIRST CONTAINER */
@@ -38,7 +38,6 @@
     color: rgba(255,255,255,0.5);
     font-size: 200px;
     font-weight: 900;
-    font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
     z-index: 1;
 }
