@@ -153,8 +153,8 @@
         font-size: 50px;
     }
     .second .right .rightR img {
-        width: 300px;
-        height: 300px;
+        width: 200px;
+        height: 200px;
     }
     .second .right .rightR {
         width: 100%;
@@ -167,7 +167,7 @@
         bottom: 0px;
     }
     .second .right .rightL p {
-        font-size: 15px;
+        font-size: 10px;
     }
     .second .right .rightL .line2 {
         bottom: 0px;
