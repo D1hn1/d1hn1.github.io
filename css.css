@@ -174,7 +174,7 @@
     }
 }
 
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
     .second .right .rightR img {
         width: 300px;
         height: 300px;
@@ -182,4 +182,4 @@
     .second .right .rightL p {
         font-size: 15px;
     }
-} 
+} */
