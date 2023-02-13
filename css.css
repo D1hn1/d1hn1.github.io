@@ -51,9 +51,9 @@ body {
 }
 
 .wrapper section .title h3 {
-    color: white;
+    color: black;
     width: 100%;
-    background-color:red;
+    background-color:#FFCB3A;
     font-size: 60px;
     transition: 0.3s;
     margin-left: 5%;
@@ -141,8 +141,9 @@ body {
         font-size: 22px;
     }
     .wrapper section .title {
-        bottom: 10px;
+        bottom: 20%;
         left: 10px;
+        border-bottom: 0px;
     }
     .wrapper section .menu {
         right: 10px;
