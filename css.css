@@ -10,7 +10,7 @@
 /* body */
 
 body {
-    overflow-y: hidden;
+    overflow: hidden;
 }
 
 /* wrapper */
