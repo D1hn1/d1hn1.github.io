@@ -47,7 +47,7 @@ body {
     font-size:200px;
     transition: 0.3s;
     margin-left: 3%;
-    animation: 1s ease-in 0s 1 slide;
+    animation: 1s ease-in 0s 1 slideTitle;
 }
 
 @keyframes slideTitle {
