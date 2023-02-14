@@ -47,6 +47,16 @@ body {
     font-size:200px;
     transition: 0.3s;
     margin-left: 3%;
+    animation: 1s ease-in 0s 1 slide;
+}
+
+@keyframes slideTitle {
+    from {
+        transform: translate(100px);
+    }
+    to {
+        transform: translate(0%);
+    }
 }
 
 .wrapper section .title h3 {
@@ -101,6 +111,27 @@ body {
     padding: 10px;
 }
 
+.wrapper section .menu ul .li1 {
+    animation: 0.5s ease-in 0s 1 slideA;
+}
+
+.wrapper section .menu ul .li2 {
+    animation: 1s ease-in 0s 1 slideA;
+}
+
+.wrapper section .menu ul .li3 {
+    animation: 1.5s ease-in 0s 1 slideA;
+}
+
+@keyframes slideA {
+    from {
+        transform: translate(-100px);
+    }
+    to {
+        transform: translate(0px);
+    }
+}
+	
 .wrapper section .menu ul li a {
     text-decoration: none;
     color: white;
