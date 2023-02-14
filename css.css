@@ -40,7 +40,6 @@ body {
     bottom: 100px;
     left: 100px;
     border-left: 2px solid white;
-    border-bottom: 2px solid white;
 }
 
 .wrapper section .title h1 {
@@ -196,7 +195,6 @@ body {
     .wrapper section .title {
         bottom: 20%;
         left: 10px;
-        border-bottom: 0px;
     }
     .wrapper section .menu {
         right: 10px;
