@@ -2,7 +2,7 @@
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
-    font-family: fantasy;
+    font-family: monospace, auto;
     font-weight: 100;
     scroll-behavior: smooth;
 }
