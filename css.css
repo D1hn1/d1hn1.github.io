@@ -139,8 +139,18 @@ body {
     transition: all 0.1s;
 }
 
-.wrapper section .menu ul li a:hover {
-    border-bottom: 0.3px solid white;
+.wrapper section .menu ul li a::after {
+    content: "";
+    display: block;
+    height: 2px;
+    background-color: white;
+    transform: scale(0,1);
+    transform-origin: center;
+    transition: transform .25s;
+}
+
+.wrapper section .menu ul li a:hover:after {
+    transform: scale(1,1);
 }
 
 /* Marquee */
