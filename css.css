@@ -89,8 +89,27 @@ body {
     font-size: 20px;
 }
 
-.wrapper section .link::after {
-    top: 50px;
+@keyframes aftera {
+    0% {content: "_";}
+    10% {content: "/_";}
+    20% {content: "//_";}
+    30% {content: "// _";}
+    40% {content: "// G_";}
+    50% {content: "// Gi_";}
+    60% {content: "// Git_";}
+    70% {content: "// Gith_";}
+    80% {content: "// Githu_";}
+    90% {content: "// Github_";}
+    100% {content: "// Github";}
+}
+
+.wrapper section .link a::after {
+    content: "// Github";
+    background-color: #FFCB3A;
+    padding: 5px;
+    color: black;
+    font-weight: 600;
+    animation: 2s ease-in 0s 1 aftera;
 }
 
 /* menu */
@@ -165,6 +184,7 @@ body {
     font-size: 80px;
     font-weight: 900;
     padding: 5px;
+    cursor: pointer;
 }
 
 /* button */
@@ -190,7 +210,7 @@ body {
     right: 0;
     bottom: 0;
     z-index: -1;
-    background: white;
+    background: #FFCB3A;
     transform: scaleX(0);
     transform-origin: 0 50%;
     transition: transform 0.3s ease-out;
@@ -259,9 +279,9 @@ body {
         width: 270px;
     }
     .wrapper section .button {
-        bottom: 0px;
-        width: 100%;
-        left: 0px;
+        right: 20px;
+        bottom: 20px;
+        transform: scale(0.8);
     }
 }
 
