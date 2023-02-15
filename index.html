@@ -14,10 +14,10 @@
                 <div class="title">
                     <h1>Dani</h1>
                     <h3>Just a regular programmer</h3>
-                    <marquee class="mymarquee" behavior="scroll" direction="right">C++ · PYTHON · BASH · HTML · CSS</marquee>
+                    <marquee class="mymarquee" onmouseover="this.stop()" onmouseout="this.start()" behavior="scroll" direction="right">C++ · PYTHON · BASH · HTML · CSS</marquee>
                 </div>
                 <div class="link">
-                    <a href="https://github.com/d1hn1">// Github</a>
+                    <a href="https://github.com/d1hn1"></a>
                 </div>
                 <div class="menu">
                     <ul>
@@ -42,4 +42,13 @@
             </section>
         </div>
     </body>
+<script>
+$(function() {
+    $('marquee').mouseover(function() {
+        $(this).attr('scrollamount',0);
+    }).mouseout(function() {
+         $(this).attr('scrollamount',5);
+    });
+});
+</script>
 </html>
