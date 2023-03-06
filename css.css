@@ -90,7 +90,7 @@ body {background-color: rgb(255, 209, 2, 0.4); overflow-x: hidden;}
     width: 100vw;
     height: fit-content;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1.5fr 1fr;
     margin-top: 100px;
     margin-bottom: 100px;
     gap: 20px;
