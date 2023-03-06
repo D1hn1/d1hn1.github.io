@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gloock', serif;
+    scroll-behavior: smooth;
+}
+
+body {background-color: rgb(255, 209, 2, 0.4); overflow-x: hidden;}
+
+/* INICIO */
+
+.inicio {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+}
+
+.inicio .inicio-texto {
+    grid-column: 1/2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inicio .inicio-texto .inicio-dentro-texto {
+    width: fit-content;
+    height: fit-content;
+    animation: text 1s ease-in;
+}
+
+.inicio .inicio-texto .inicio-dentro-texto h1 {font-size: 3vw; border-bottom: 1px solid black; padding-bottom: 5px;}
+.inicio .inicio-texto .inicio-dentro-texto h3 {font-size: 1.3vw;}
+.inicio .inicio-texto .inicio-dentro-texto p {font-size: 1vw; width: 40vw;}
+
+.inicio .inicio-imagen {
+    grid-column: 2/3;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inicio .inicio-imagen img {
+    width: 60%;
+    height: auto;
+    border-radius: 250px 250px 0px 0px;
+    animation: image 1s ease-in;
+}
+
+/* SECTION */
+
+.section {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+}
+
+.section .section-imagen {
+    grid-column: 1/2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.section .section-imagen img {
+    width: 60%;
+    height: auto;
+    border-radius: 0px 0px 250px 250px;
+}
+
+.section .section-texto {
+    grid-column: 2/3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section .section-texto .section-dentro-texto {
+    width: fit-content;
+    height: fit-content;
+}
+
+.section .section-texto .section-dentro-texto h1 {font-size: 3vw; border-bottom: 1px solid black; padding-bottom: 5px;}
+.section .section-texto .section-dentro-texto h3 {font-size: 1.3vw;}
+.section .section-texto .section-dentro-texto p {font-size: 1vw; width: 40vw;}
+
+/* SECTION DOS */
+
+.section-dos {
+    width: 100vw;
+    height: fit-content;
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    gap: 20px;
+}
+
+.section-dos .section-titulo {
+    grid-column: 1/2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: right;
+}
+
+.section-dos .section-titulo h1 {font-size: 5vw;}
+.section-dos .section-titulo h3 {font-size: 3vw;}
+
+.section-dos .section-lenguages {
+    grid-column: 2/3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    border-left: 1px solid black
+}
+
+.section-dos .section-lenguages ul {width: fit-content; height:fit-content;}
+.section-dos .section-lenguages ul li {list-style: none; padding-left: 10px; font-size: 4vw;}
+
+/* FOOTER */
+
+footer {
+    width: 100vw;
+    height: 15vh;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+    font-size: 2vw;
+    padding-right: 100px;
+}
