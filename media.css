@@ -1,0 +1,14 @@
+@media screen and (max-width: 600px) {
+    .inicio {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+    .inicio .inicio-texto {grid-column: 1/2; grid-row: 1/2;}
+    .inicio .inicio-imagen {grid-column: 1/2; grid-row: 2/3;}
+    .section {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+    .section .section-texto {grid-column: 1/2; grid-row: 1/2;}
+    .section .section-imagen {grid-column: 1/2; grid-row: 2/3;}
+}
