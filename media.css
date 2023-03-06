@@ -17,5 +17,5 @@
     .section .section-texto .section-dentro-texto h1 {font-size: 8vw; border-bottom: 1px solid black; padding-bottom: 5px;}
     .section .section-texto .section-dentro-texto h3 {font-size: 4vw;}
     .section .section-texto .section-dentro-texto p {font-size: 3vw; width: 80vw;}
-    footer a {font-size: 5vw;}
+    footer a {font-size: 5vw; padding-right: 40px;}
 }
