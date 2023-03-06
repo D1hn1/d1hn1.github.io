@@ -6,7 +6,7 @@
     scroll-behavior: smooth;
 }
 
-body {background-color: rgb(255, 209, 2, 0.4);}
+body {background-color: rgb(255, 209, 2, 0.4); overflow-x: hidden;}
 
 /* INICIO */
 
@@ -104,8 +104,8 @@ body {background-color: rgb(255, 209, 2, 0.4);}
     text-align: right;
 }
 
-.section-dos .section-titulo h1 {font-size: 4vw;}
-.section-dos .section-titulo h3 {font-size: 2vw;}
+.section-dos .section-titulo h1 {font-size: 5vw;}
+.section-dos .section-titulo h3 {font-size: 3vw;}
 
 .section-dos .section-lenguages {
     grid-column: 2/3;
@@ -117,7 +117,7 @@ body {background-color: rgb(255, 209, 2, 0.4);}
 }
 
 .section-dos .section-lenguages ul {width: fit-content; height:fit-content;}
-.section-dos .section-lenguages ul li {list-style: none; padding-left: 10px; font-size: 3vw;}
+.section-dos .section-lenguages ul li {list-style: none; padding-left: 10px; font-size: 4vw;}
 
 /* FOOTER */
 
