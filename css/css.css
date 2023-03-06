@@ -30,9 +30,9 @@ body {background-color: rgb(255, 209, 2, 0.4); overflow-x: hidden;}
     animation: text 1s ease-in;
 }
 
-.inicio .inicio-texto .inicio-dentro-texto h1 {font-size: 3vw; border-bottom: 1px solid black; padding-bottom: 5px;}
-.inicio .inicio-texto .inicio-dentro-texto h3 {font-size: 1.3vw;}
-.inicio .inicio-texto .inicio-dentro-texto p {font-size: 1vw; width: 40vw;}
+.inicio .inicio-texto .inicio-dentro-texto h1 {font-size: 4vw; border-bottom: 1px solid black; padding-bottom: 5px;}
+.inicio .inicio-texto .inicio-dentro-texto h3 {font-size: 1.5vw;}
+.inicio .inicio-texto .inicio-dentro-texto p {font-size: 1.5vw; width: 40vw;}
 
 .inicio .inicio-imagen {
     grid-column: 2/3;
@@ -84,9 +84,9 @@ body {background-color: rgb(255, 209, 2, 0.4); overflow-x: hidden;}
     height: fit-content;
 }
 
-.section .section-texto .section-dentro-texto h1 {font-size: 3vw; border-bottom: 1px solid black; padding-bottom: 5px;}
-.section .section-texto .section-dentro-texto h3 {font-size: 1.3vw;}
-.section .section-texto .section-dentro-texto p {font-size: 1vw; width: 40vw;}
+.section .section-texto .section-dentro-texto h1 {font-size: 4vw; border-bottom: 1px solid black; padding-bottom: 5px;}
+.section .section-texto .section-dentro-texto h3 {font-size: 1.5vw;}
+.section .section-texto .section-dentro-texto p {font-size: 1.5vw; width: 40vw;}
 
 /* SECTION DOS */
 
