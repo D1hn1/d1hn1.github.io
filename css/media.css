@@ -1,0 +1,21 @@
+@media screen and (max-width: 600px) {
+    .inicio {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+    .inicio .inicio-texto {grid-column: 1/2; grid-row: 1/2;}
+    .inicio .inicio-imagen {grid-column: 1/2; grid-row: 2/3;}
+    .inicio .inicio-texto .inicio-dentro-texto h1 {font-size: 8vw; border-bottom: 1px solid black; padding-bottom: 5px;}
+    .inicio .inicio-texto .inicio-dentro-texto h3 {font-size: 4vw;}
+    .inicio .inicio-texto .inicio-dentro-texto p {font-size: 3vw; width: 80vw;}
+    .section {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+    .section .section-texto {grid-column: 1/2; grid-row: 1/2;}
+    .section .section-imagen {grid-column: 1/2; grid-row: 2/3;}
+    .section .section-texto .section-dentro-texto h1 {font-size: 8vw; border-bottom: 1px solid black; padding-bottom: 5px;}
+    .section .section-texto .section-dentro-texto h3 {font-size: 4vw;}
+    .section .section-texto .section-dentro-texto p {font-size: 3vw; width: 80vw;}
+    footer a {font-size: 5vw; padding-right: 40px;}
+}
