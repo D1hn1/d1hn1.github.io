@@ -7,6 +7,9 @@
 }
 
 body {background-color: #fff685; overflow-x: hidden;}
+h1, li {color: rgba(0,0,0,0.7)}
+h3 {color: rgba(0,0,0,0.6)}
+p {color: rgba(0,0,0,0.5)}
 
 /* INICIO */
 
@@ -135,7 +138,7 @@ footer {
 
 footer a {
     text-decoration: none;
-    color: black;
+    color: rgba(0,0,0,0.7);
     font-size: 2vw;
     padding-right: 100px;
 }
