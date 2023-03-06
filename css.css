@@ -44,6 +44,7 @@ body {background-color: rgb(255, 209, 2, 0.4); overflow-x: hidden;}
 .inicio .inicio-imagen img {
     width: 60%;
     height: auto;
+    border-radius: 250px 250px 0px 0px;
 }
 
 /* SECTION */
@@ -66,6 +67,7 @@ body {background-color: rgb(255, 209, 2, 0.4); overflow-x: hidden;}
 .section .section-imagen img {
     width: 60%;
     height: auto;
+    border-radius: 0px 0px 250px 250px;
 }
 
 .section .section-texto {
