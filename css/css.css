@@ -33,7 +33,7 @@ p {color: rgba(0,0,0,0.5)}
     animation: text 1s ease-in;
 }
 
-.inicio .inicio-texto .inicio-dentro-texto h1 {font-size: 4vw; border-bottom: 1px solid black; padding-bottom: 5px;}
+.inicio .inicio-texto .inicio-dentro-texto h1 {font-size: 4vw; border-bottom: 1px solid rgba(0,0,0,0.5); padding-bottom: 5px;}
 .inicio .inicio-texto .inicio-dentro-texto h3 {font-size: 1.5vw;}
 .inicio .inicio-texto .inicio-dentro-texto p {font-size: 1.5vw; width: 40vw;}
 
@@ -87,7 +87,7 @@ p {color: rgba(0,0,0,0.5)}
     height: fit-content;
 }
 
-.section .section-texto .section-dentro-texto h1 {font-size: 4vw; border-bottom: 1px solid black; padding-bottom: 5px;}
+.section .section-texto .section-dentro-texto h1 {font-size: 4vw; border-bottom: 1px solid rgba(0,0,0,0.5); padding-bottom: 5px;}
 .section .section-texto .section-dentro-texto h3 {font-size: 1.5vw;}
 .section .section-texto .section-dentro-texto p {font-size: 1.5vw; width: 40vw;}
 
@@ -120,7 +120,7 @@ p {color: rgba(0,0,0,0.5)}
     flex-direction: column;
     justify-content: center;
     text-align: left;
-    border-left: 1px solid black
+    border-left: 1px solid rgba(0,0,0,0.5);
 }
 
 .section-dos .section-lenguages ul {width: fit-content; height:fit-content;}
