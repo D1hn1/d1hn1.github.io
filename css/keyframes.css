@@ -17,3 +17,12 @@
         opacity: 1;
     }
 }
+
+@keyframes load {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
