@@ -1,0 +1,68 @@
+/* animations */
+
+@keyframes h1-ease-in {
+	from { opacity: 0; }
+	to { opacity: 100; }
+}
+
+@keyframes img-ease-in {
+	from { bottom: -100px; opacity: 0; }
+	to { opacity: 100; }
+}
+
+@keyframes nav-ease-in {
+	from { left: -20px; opacity: 0; }
+	to { opacity: 100; }
+}
+
+@keyframes dot-animation {
+	0% { content: 'Beginning'; }
+	16% { content: 'Beginning.'; }
+	32% { content: 'Beginning..'; }
+	48% { content: 'Beginning...'; }
+	64% { content: 'Beginning..'; }
+	80% { content: 'Beginning.'; }
+}
+
+@keyframes type-animation {
+	0% { content: 'n|'; }
+	2% { content: 'ne|'; }
+	4% { content: 'net|'; }
+	6% { content: 'netw|'; }
+	8% { content: 'netwo|'; }
+	10% { content: 'networ|'; }
+	12% { content: 'network|'; }
+	14% { content: 'networki|'; }
+	16% { content: 'networkin|'; }
+	18% { content: 'networking|'; }
+	20% { content: 'networking.|'; }
+	22% { content: 'c|'; }
+	24% { content: 'ci|'; }
+	26% { content: 'cib|'; }
+	28% { content: 'cibe|'; }
+	30% { content: 'ciber|'; }
+	32% { content: 'cibers|'; }
+	34% { content: 'ciberse|'; }
+	36% { content: 'cibersec|'; }
+	38% { content: 'cibersecu|'; }
+	40% { content: 'cibersecur|'; }
+	42% { content: 'cibersecuri|'; }
+	44% { content: 'cibersecurit|'; }
+	46% { content: 'cibersecurity.|'; }
+	48% { content: 'w|'; }
+	50% { content: 'we|'; }
+	52% { content: 'web|'; }
+	54% { content: 'webs|'; }
+	56% { content: 'websi|'; }
+	58% { content: 'websit|'; }
+	60% { content: 'website|'; }
+	62% { content: 'website |'; }
+	64% { content: 'website b|'; }
+	66% { content: 'website bu|'; }
+	68% { content: 'website bui|'; }
+	70% { content: 'website buil|'; }
+	72% { content: 'website build|'; }
+	74% { content: 'website buildi|'; }
+	76% { content: 'website buildin|'; }
+	78% { content: 'website building.|'; }
+}

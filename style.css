@@ -1,0 +1,150 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+}
+
+/* body */
+
+body {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	background-color: #111;
+}
+
+/* classes */
+
+.triangle {
+	position: absolute;
+	color: white;
+}
+
+/* nav */
+
+#main-nav {
+	left: 0;
+	top: 1.5vh;
+	z-index: 10;
+	width: 100vw;
+	font-weight: 600;
+	position: fixed;
+	height: fit-content;
+	font-family: 'Major Mono Display', serif;
+
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+
+	animation: nav-ease-in 1s;
+}
+
+#main-nav div {
+	right: 0;
+	width: fit-content;
+	position: absolute;
+}
+
+#main-nav div a {
+	color: rgba(255,255,255,0.5);
+	text-decoration: none;
+	padding-left: 2vw;
+	padding-right: 2vw;
+	font-size: calc(10px + 0.7vw);
+}
+
+#main-nav div a:hover {
+	text-transform: lowercase;
+}
+
+#second-nav-h2 {
+	color: rgba(255,255,255,0.5);
+	font-size: calc(10px + 0.7vw);
+}
+
+#main-nav-h2 {
+	left: 0;
+	padding-left: 2vw;
+	position: absolute;
+	color: rgba(255,255,255,0.5);
+
+	font-size: calc(10px + 0.7vw);
+}
+
+/* main-header */
+
+#main-header {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+	justify-content: center;
+}
+
+#main-header h1 {
+	z-index: 10;
+	color: white;
+	animation: h1-ease-in 3s;
+	font-size: calc(10px + 15vw);
+	font-family: 'UnifrakturMaguntia', serif;
+	
+	filter: drop-shadow(20px 20px 0 rgba(255,255,255,0.2));
+}
+
+#main-header img {
+	bottom: 0;
+	right: 2vw;
+	position: absolute;
+	animation: img-ease-in 2s;
+	filter: grayscale(1) drop-shadow(20px 20px 0 rgba(0,0,0,0.5)) drop-shadow(20px 20px 0 rgba(0,0,0,0.6));
+}
+
+/* main-section */
+
+#main-section {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	position: relative;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+	
+	font-weight: 700;
+	font-family: 'Major Mono Display', serif;
+}
+
+#main-section div {
+	width: 60vw;
+	height: fit-content;
+}
+
+#main-section div p {
+	width: 100%;
+	height: 100%;
+	color: white;
+	font-size: calc(7px + 1.5vw);
+}
+
+#main-section-p-content {
+	color: white;
+	font-size: 8vw;
+}
+
+#main-section h1 {
+	font-size: 15vw;
+	font-family: arial;
+	color: rgba(255,255,255,0.04);
+	font-weight: 900;
+}
+
+#second-section-p-content::before {
+	content: '';
+	font-family: monospace;
+	font-weight: 100;
+	font-size: calc(8px + 1.5vw);
+	animation: type-animation 10s linear infinite;
+}
