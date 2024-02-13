@@ -11,7 +11,7 @@ body {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	background-color: #111;
+	background-color: rgba(0,0,0,0.5);
 }
 
 /* classes */
