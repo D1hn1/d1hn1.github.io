@@ -60,7 +60,7 @@
 
 @keyframes canvas-in {
 	from { opacity: 1; }
-	to { opacity: 0.1; }
+	to { opacity: 0.3; }
 }
 
 @keyframes marquee-ul {
