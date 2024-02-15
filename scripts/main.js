@@ -32,7 +32,7 @@ function noise(ctx) {
 
 	for(; i < len;i++)
 
-		if (Math.random() < 0.5) buffer32[i] = 0xffffffff;
+		if (Math.random() < 0.3) buffer32[i] = 0xffffffff;
 
 		ctx.putImageData(iData, 0, 0);
 }
