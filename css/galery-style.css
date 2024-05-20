@@ -1,0 +1,35 @@
+@media screen and (min-width: 1000px) {
+
+	#image-wrapper {
+		width: 100%;
+		height: calc(100% - calc(100%/15) - calc(100vh/15));
+		background-color: var(--background);
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+	}
+
+	#image-wrapper > img {
+		width: auto;
+		height: 50%;
+	}
+
+}
+
+@media screen and (max-width: 1000px) {
+	#image-wrapper {
+		width: 100%;
+		height: fit-content;
+		background-color: var(--background);
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	#image-wrapper > img {
+		width: 100%;
+		height: auto;
+	}
+}

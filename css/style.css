@@ -89,7 +89,7 @@ body {
 
 		position: absolute;
 		height: 100%;
-		width: calc(100%/5);
+		width: fit-content;
 
 		display: flex;
 		border-left: 1px solid var(--primary);
@@ -105,6 +105,8 @@ body {
 		display: grid;
 		place-items: center;
 		transition: background-color 0.3s;
+		padding-right: 2vw;
+		padding-left: 2vw;
 	}
 
 	#main-nav > #main-nav-links > a:hover {

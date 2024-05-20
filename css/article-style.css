@@ -1,0 +1,109 @@
+@media screen and (min-width: 1000px) {
+
+	#article-wrapper {
+		width: 100%;
+		height: calc(100% - calc(100%/15) - calc(100vh/15));
+
+		background-color: var(--background);
+		display: grid;
+		place-items: center;
+	}
+
+	#article-wrapper > #article {
+		width: fit-content;
+		height: fit-content;
+		
+		display: flex;
+		flex-direction: row;
+		gap: 2vw;
+	}
+
+	#article-wrapper > #article > img {
+		width: 300px;
+		height: auto;
+	}
+
+	#article-wrapper > #article > #article-text {
+		width: 20vw;
+		height: auto;
+		
+		display: flex;
+		flex-direction: column;
+		gap: 10px;
+	}
+
+	#article-wrapper > #article > #article-text > h1 {
+		color: white;
+		font-family: Galada;
+	}
+
+	#article-wrapper > #article > #article-text > h3 {
+		color: rgba(255,255,255,0.5);
+		font-family: Montserrat;
+	}
+
+	#article-wrapper > #article > #article-text > p {
+		color: rgba(255,255,255,0.8);
+		font-family: Montserrat;
+
+		text-align: justify;
+	}
+
+}
+
+@media screen and (max-width: 1000px) {
+
+	#article-wrapper {
+		width: 100%;
+		height: calc(100% - 2rem - calc(100vh/15));
+
+		background-color: var(--background);
+		display: grid;
+		place-items: center;
+	}
+
+	#article-wrapper > #article {
+		width: 100%;
+		height: fit-content;
+		
+		display: flex;
+		flex-direction: column;
+		gap: 2vw;
+
+		align-items: center;
+	}
+
+	#article-wrapper > #article > img {
+		width: 30%;
+		height: auto;
+	}
+
+	#article-wrapper > #article > #article-text {
+		width: 50%;
+		height: auto;
+		
+		display: flex;
+		flex-direction: column;
+		gap: 10px;
+	}
+
+	#article-wrapper > #article > #article-text > h1 {
+		color: white;
+		font-family: Galada;
+		font-size: 1rem;
+	}
+
+	#article-wrapper > #article > #article-text > h3 {
+		color: rgba(255,255,255,0.5);
+		font-family: Montserrat;
+		font-size: 0.5rem;
+	}
+
+	#article-wrapper > #article > #article-text > p {
+		color: rgba(255,255,255,0.8);
+		font-family: Montserrat;
+		font-size: 0.6rem;
+
+		text-align: justify;
+	}
+}
